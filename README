@@ -1,13 +1,33 @@
 =========================
- = HAITI TRACKER 0.0.1 =
+ = HAITI TRACKER 0.0.2 =
 =========================
 
 Haiti Tracker is an aggregator that helps users to distill, rate and manage news related to a specific topic.  It was built in direct response to the earthquakes in Haiti, and the torrent of news, rumor and controversy that followed, to help filter an otherwise unmanageable storm of confusing reports.
 
-Haiti Tracker's underlying engine is Gregarious, an open source RSS feed reader. 
+Haiti Tracker's underlying engine is Gregarious, an open source RSS feed reader. The site is live at http://appfrica2.com/haiti/. The code repository is located at http://github.com/appfrica/haiti_tracker.
+
+===============
+ = CHANGELOG =
+===============
+
+2010-01-19	POST function passes location
+2010-01-18	POST function passes date and time
+2010-01-18	POST to Ushahidi using API
+2010-01-17	added jquery
+2010-01-17	duplicate suppression script added (not working)
+2010-01-15	swift theme created, gregarious 
 
 ======================
  = DEVELOPMENT TEAM =
 ======================
 
-Jon Gosier	Lead Dev/Designer	Director Swift River
+Jon Gosier		j.gosier@appfrica.org
+
+==================
+ = CONTRIBUTORS =
+==================
+
+Jason Mule		jason.mule@gmail.com
+Abdhalla Chamas	abdhalla.chamas@gmail.com
+Moses Mugisha	moses@appfrica.org
+Chris Blow		unthinkingly@gmail.com

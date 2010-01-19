@@ -1,6 +1,6 @@
 <?
-$connection=mysql_connect("localhost","username","pass"); 
-$db=mysql_select_db("dbname",$connection); 
+$connection=mysql_connect("DBSERVER","DBUNAME","DBPASS"); 
+$db=mysql_select_db("DBNAME",$connection); 
 
 mysql_query("ALTER IGNORE TABLE item ADD UNIQUE dup_index_name (title)");
 mysql_query("ALTER IGNORE TABLE item DROP INDEX dup_index_name");
@@ -20,7 +20,5 @@ mysql_query("UPDATE item SET pubdate='$added' WHERE id='$pid'");
 }
 
 mysql_close($connection); 
-
-header("Location: index.php"); 
 
 ?>

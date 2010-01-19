@@ -41,7 +41,7 @@
 	<input type="hidden" name="latitude" id="latitude" value="-0.00" />
 	<input type="hidden" name="longitude" id="longitude" value="0.00" />
 	<input type="hidden" name="location_name" id="location_name" value="unknown" /></div>	
-	<input type="submit" value="Send to Ushahidi" />
+	<input type="submit" value="Send to Ushahidi" onclick="this.disabled=true;this.value='Thanks!';this.form.submit();"/>
 	</form>&nbsp;
 	<h6>
 		<?php echo __('Tags'); ?>:&nbsp;

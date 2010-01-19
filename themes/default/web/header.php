@@ -25,7 +25,7 @@ $(document).ready(function() {
 	var task = "#";
 	var incident_title = "#";
 	var incident_description = description;
-    	var incident_date = "#";
+    var incident_date = "#";
 	var incident_hour = "#";
 	var incident_minute = "#";
 	var incident_ampm = "";

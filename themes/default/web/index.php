@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo rss_header_doclang(); ?>">
 <head>
 <?php rss_main_header(); ?>
+<?php include_once 'cls/optimize.php'; ?>
 </head>
 
 <body<?php echo rss_header_onLoadAction() ?>>
@@ -19,9 +20,9 @@
 </ul>
 <div id="channels" class="frame">
 	<?php rss_main_feeds(); ?>
-<a href="http://haiti.ushahidi.com/"><img src="http://sitroom.ushahididev.com/wp-content/uploads/help-haiti.png"></a> 
+<a href="http://haiti.ushahidi.com/"><img src="http://sitroom.ushahididev.com/wp-content/uploads/help-haiti.png" alt="help haiti" /></a>
 </div>
-<img src="img/logo.png" class="htlogo" >
+<img src="img/logo.png" class="htlogo" alt="haiti tracker logo" />
 <?php rss_errors_render() ?>
 <?php rss_plugin_hook('rss.plugins.before.maindiv', rss_main_div_id()); ?>
 <div <?php echo rss_main_div_id(); ?> class="frame">
